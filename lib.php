@@ -99,7 +99,7 @@ function local_pages_build_menu(navigation_node $nav, $parent, global_navigation
  * @throws dml_exception
  * @throws moodle_exception
  */
-function local_pages_process_records($records, $nav, $parent = false, global_navigation $gnav) {
+function local_pages_process_records($records, $nav, $parent = false, global_navigation $gnav = null) {
     global $CFG;
     if ($records) {
         foreach ($records as $page) {
