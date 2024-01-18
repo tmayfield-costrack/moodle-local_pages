@@ -207,7 +207,6 @@ body#page-local-pages-index .fitem.has-error {
 
 body#page-local-pages-index .help-block.error-item {
     padding: 5px 0;
-    text-transform: uppercase;
     color: #f00;
     display: block;
 }
